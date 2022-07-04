@@ -23,3 +23,32 @@ Learn MySQL in PHP
 	    tahun_lahir VARCHAR(4) NULL
 	)
 
+# CREATE CONNECTION
+
+connection.php
+
+	<?php 
+	
+		// MEMBUAT VARIABEL
+		$hostname = "localhost";
+		$username = "root";
+		$password = "";
+		$database = "day13_project01";
+
+		// MEMBUAT KONEKSI
+		$connection = new mysqli(
+			$hostname,
+			$username,
+			$password,
+			$database
+		);
+
+		// PERIKSA KONEKSI
+		if($connection->connect_error){
+			echo "Koneksi Gagal!";
+		} else {
+			echo "Koneksi Berhasil!";
+		}
+
+	?>
+
