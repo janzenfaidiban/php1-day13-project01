@@ -14,7 +14,7 @@
 		<div class="row my-5">
 
 			<!-- SIDEBAR -->
-			<div class="col-lg-4">
+			<div class="col-lg-4 p-0 px-lg-4">
 
 				<div class="list-group">
 					<a href="index.php" class="list-group-item list-group-item-action">Dasbor</a>
