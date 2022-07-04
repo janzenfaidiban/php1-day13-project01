@@ -14,11 +14,11 @@
 		$database
 	);
 
-	// PERIKSA KONEKSI
-	if($connection->connect_error){
-		echo "Koneksi Gagal!";
-	} else {
-		echo "Koneksi Berhasil!";
-	}
+	// // PERIKSA KONEKSI
+	// if($connection->connect_error){
+	// 	echo "Koneksi Gagal!";
+	// } else {
+	// 	echo "Koneksi Berhasil!";
+	// }
 
 ?>
