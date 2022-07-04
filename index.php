@@ -28,7 +28,7 @@
 			<!-- CONTENT -->
 			<div class="col-lg-8 bg-light rounded border shadow">
 
-				CONTENT
+				<h1>Dasbor</h1>
 
 			</div>
 			<!-- END CONTENT -->
